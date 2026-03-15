@@ -5,10 +5,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './pages/NavBar';
 import HeroSection from './pages/Dashboard';
 import AboutSection from './pages/AboutSection';
+import SkillsSection from './pages/SkillsSection';
 import ProjectsSection from './pages/ProjectsSection';
 import ExperienceSection from './pages/ExperienceSection';
-import ContactSection from './pages/ContactSection';
 import EducationSection from './pages/EducationSection';
+import ContactSection from './pages/ContactSection';
 
 function HomePage() {
   return (
@@ -17,6 +18,7 @@ function HomePage() {
       <main className="pt-20">
         <HeroSection />
         <AboutSection />
+        <SkillsSection />
         <ProjectsSection />
         <ExperienceSection />
         <EducationSection />
@@ -31,7 +33,6 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        {/* <Route path="/project/:id" element={<ProjectDetails />} /> */}
       </Routes>
     </Router>
   );
