@@ -91,7 +91,7 @@ export default function ContactSection() {
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
       >
-        Let&apos;s Build Something
+        <span>Let&apos;s Build Something</span>
         <span className="text-[#00E5FF]">.</span>
       </motion.h2>
       <motion.p
