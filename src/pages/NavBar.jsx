@@ -107,7 +107,7 @@ export default function Navbar() {
 
           {/* CTA */}
           <a
-            href="https://mail.google.com/mail/?view=cm&to=venkataramakrishnatagarampudi@gmail.com" target="_blank"
+            href="https://mail.google.com/mail/?view=cm&to=venkataramakrishnatagarampudi@gmail.com" target="_blank" rel="noreferrer"
             className="hidden md:block text-xs font-bold px-4 py-2 rounded-lg transition-all duration-200"
             style={{
               background: "rgba(0,229,255,0.1)",
